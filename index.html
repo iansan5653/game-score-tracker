@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Score Tracker</title>
+  <script type="module" src="dist/index.js"></script>
+</head>
+<body>
+  <h1>Game Score Tracker</h1>
+  <new-game-form id="asdf" ></new-game-form>
+</body>
+<script>
+  const f = document.getElementById('asdf')
+  f.addEventListener('create-game', (e) => console.log(e))
+</script>
+</html>
